@@ -4,6 +4,8 @@
    grid-template-columns:repeat(4, 242.5px);
    grid-template-rows:repeat(5, 124px);	
 	gap:10px;
+
+	grid-auto-rows: 124px;
 }
 .item1{
 	border:2px solid white;
