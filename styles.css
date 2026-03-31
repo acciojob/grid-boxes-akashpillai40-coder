@@ -1,1 +1,91 @@
 /*  your css code here. If applicable */
+#grid{
+   display:grid;
+   grid-template-columns:repeat(5, 100px);
+   grid-template-rows:repeat(5, 50px);
+	height:200px;
+	width:400px;
+	
+	
+}
+.item1{
+	border:2px solid white;
+	background-color:green;
+	color:white;
+	padding:5px;
+
+	grid-column:1/5;
+}
+.item2{
+	border:2px solid white;
+	background-color:green;
+	color:white;
+	padding:5px;
+	grid-row:2/6;
+}
+.item3{
+	border:2px solid white;
+	background-color:green;
+	color:white;
+	padding:5px;
+
+	grid-column:2/3;
+}
+.item4{
+	border:2px solid white;
+	background-color:green;
+	color:white;
+	padding:5px;
+
+	grid-column:3/5;
+}
+.item5{
+	border:2px solid white;
+	background-color:green;
+	color:white;
+	padding:5px;
+
+	grid-column:2/4;
+}
+.item6{
+	border:2px solid white;
+	background-color:green;
+	color:white;
+	padding:5px;
+
+	grid-column:4/5;
+}
+.item7{
+	border:2px solid white;
+	background-color:green;
+	color:white;
+	padding:5px;
+
+	grid-column:2/3;
+}
+.item8{
+	border:2px solid white;
+	background-color:green;
+	color:white;
+	padding:5px;
+
+	grid-column:3/4;
+}
+.item9{
+	border:2px solid white;
+	background-color:green;
+	color:white;
+	padding:5px;
+
+	grid-column:4/5;
+}
+.item0{
+	border:2px solid white;
+	background-color:green;
+	color:white;
+	padding:5px;
+
+	grid-column:2/5;
+	
+}
+
