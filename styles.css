@@ -11,7 +11,7 @@
 	color:white;
 	padding:5px;
 
-	grid-column: 1/5;
+	grid-column: span 4;
 }
 .item2{
 	border:2px solid white;
@@ -19,7 +19,7 @@
 	color:white;
 	padding:5px;
 	grid-row: 2 / span 4;
-	grid-column: 1 / 2;
+	grid-column: span 4;
 }
 .item3{
 	border:2px solid white;
@@ -34,7 +34,7 @@
 	color:white;
 	padding:5px;
 
-	grid-column: 3 / 5;
+	grid-column: span 2;
 }
 .item5{
 	border:2px solid white;
@@ -42,7 +42,7 @@
 	color:white;
 	padding:5px;
 
-	grid-column: 2 / 4;
+	grid-column: span 2;
 }
 .item6{
 	border:2px solid white;
@@ -78,6 +78,6 @@
 	color:white;
 	padding:5px;
 
-	grid-column: 2 / 5;	
+	grid-column: span 3;	
 }
 
