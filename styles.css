@@ -18,8 +18,8 @@
 	background-color:green;
 	color:white;
 	padding:5px;
-	grid-row: 2 / span 4;
-	grid-column: span 4;
+	grid-row: span 4;
+	
 }
 .item3{
 	border:2px solid white;
